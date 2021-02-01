@@ -47,8 +47,6 @@ class Sockets {
                 this.io.emit('lista-usuarios', await getUsuarios())
             });
 
-            // TODO: Emitir todos los usuarios conectados
-
 
         });
     }
